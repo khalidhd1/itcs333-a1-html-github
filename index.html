@@ -1,19 +1,53 @@
 <!DOCTYPE html>
-<!-- TODO: add lang attribute to the html element -->
-<html>
+<html lang="en">
 <head>
-  <!-- TODO: add charset meta and a <title> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khalid Al Hedaithy — Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!--
-    ITCS333 A1 starter. Replace this comment with your profile page.
-    Requirements (see README rubric):
-      - semantic elements: header, nav, main, footer
-      - h1 then h2 heading hierarchy
-      - a link to about.html and one external link
-      - an image with alt text (put the file in assets/)
-      - one ordered list and one unordered list (across both pages)
-  -->
-  <p>TODO: build your profile page here.</p>
+
+  <header>
+    <h1>Khalid Al Hedaithy</h1>
+    <p class="tagline">Final-year cybersecurity student, with a diploma in polymer engineering behind me.</p>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>What I'm working on</h2>
+    <p>
+      I'm in the final year of a cybersecurity degree, which means a senior project
+      and a last run of coursework at the same time. ITCS333 is the web side of that:
+      building things properly instead of making them merely work.
+    </p>
+
+    <h2>Courses this semester</h2>
+    <ul>
+      <li>ITCS333 — Internet Software Development</li>
+      <li>ITCY499 — Senior Project</li>
+      <li>ITCY441 — Network Management and Administration</li>
+      <li>ITCY432 — Internet of Things Security</li>
+      <li>GERM101 — Introduction to German</li>
+    </ul>
+
+    <h2>Where to find me</h2>
+    <p>
+      My coursework lives on
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>,
+      and there's more background on the <a href="about.html">about page</a>.
+    </p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Khalid Al Hedaithy — ITCS333 Assignment 1</p>
+  </footer>
+
 </body>
 </html>
